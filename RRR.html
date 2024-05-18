@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Signal</title>
+    <link rel="stylesheet" href="RRR.css">
+   
+</head>
+<body>
+    <h1 class="center">Traffic Signal Lights</h1>
+       <div class="signal_button">
+        <div class="bg-container">
+            <div class="custom-btn1">
+            <button class="btn-style" id="redbtn" onclick="red()">STOP</button>
+        </div>
+        <div class="custom-btn2">
+            <button class="btn-style" id="yellowbtn" onclick="yellow()">READY</button>
+        </div>
+        <div class="custom-btn2">
+            <button class="btn-style" id="greenbtn" onclick="green()">GO</button>
+        </div>
+        </div>
+        <div class="lights-direction">
+    <div class="container">
+        <div id="redelement" class="signal">
+         
+    
+
+        </div>
+        <div id="ORANGEELEMENT" class="signal">
+
+        </div>
+        <div id="GREENELEMENT" class="signal">
+
+        </div>
+
+    </div>
+     
+    </div>
+
+</div>
+
+
+    <script>
+        function red(){
+            document.getElementById("redelement").style.backgroundColor = "red"
+            document.getElementById("ORANGEELEMENT").style.backgroundColor = "lightgray"
+            document.getElementById("GREENELEMENT").style.backgroundColor = "lightgray"
+            document.getElementById("redbtn").style.backgroundColor = "red"
+            document.getElementById("yellowbtn").style.backgroundColor = "lightgray"
+            document.getElementById("greenbtn").style.backgroundColor = "lightgray"
+
+        }
+        function yellow(){
+            document.getElementById("ORANGEELEMENT").style.backgroundColor = "orange"
+            document.getElementById("GREENELEMENT").style.backgroundColor = "lightgray"
+            document.getElementById("redelement").style.backgroundColor = "lightgray"
+            document.getElementById("redbtn").style.backgroundColor = "lightgray"
+            document.getElementById("yellowbtn").style.backgroundColor = "orange"
+            document.getElementById("greenbtn").style.backgroundColor = "lightgray"
+        }
+        function green(){
+            document.getElementById("GREENELEMENT").style.backgroundColor = "green"
+            document.getElementById("redelement").style.backgroundColor = "lightgray"
+            document.getElementById("ORANGEELEMENT").style.backgroundColor = "lightgray"
+            document.getElementById("redbtn").style.backgroundColor = "lightgray"
+            document.getElementById("yellowbtn").style.backgroundColor = "lightgray"
+            document.getElementById("greenbtn").style.backgroundColor = "green"
+        }
+       
+    </script>
+</body>
+</html>

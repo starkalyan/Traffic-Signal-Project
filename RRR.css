@@ -1,0 +1,79 @@
+
+
+
+
+body{
+    background-color: rgb(60, 142, 223);
+    text-align: center;
+    
+    color: white;
+    
+}
+.signal{
+    background-color: lightgray;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: auto;    
+}
+.custom-btn1{
+    margin-left: 600px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 80px;
+    width: 100px;
+}
+.custom-btn2{
+    margin-left: 600px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 80px;
+    width: 100px;
+    
+    
+
+}
+.signal_button{
+    display: flex;
+    flex-direction: row;
+}
+  .lights-direction{ 
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+
+    
+
+    
+
+} 
+.bg-container{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    margin-top: 35px;
+    
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 310px;
+    border-radius: 100px;
+    width: 100px;
+    margin: auto;
+    justify-content: space-around;
+    margin-top: 45px;
+
+}
+.btn-style{
+    border-radius: 10px;
+    font-size: 20px;
+    height: 40px;
+    width: 100px;
+}
